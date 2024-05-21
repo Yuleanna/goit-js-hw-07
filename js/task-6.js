@@ -22,7 +22,7 @@ createBtn.addEventListener('click', () => {
 
   if (amount >= 1 && <= 100) {
 
-    crateBoxes(amount);
+    createBoxes(amount);
     input.value = '';
   } else {
     alert('Please enter a number between 1 amd 100.');

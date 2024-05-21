@@ -25,7 +25,7 @@ const images = [
   }
 ];
 
-const gallery = document.querySelector('gallery');
+const gallery = document.querySelector('.gallery');
 
 const galleryItems = images.map(({ url, alt }) => {
   return `<li class ="gallery=item">

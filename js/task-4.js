@@ -25,5 +25,5 @@ loginForm.addEventListener('submit', (event) => {
 
     console.log(formData);
 
-    loginForm.requestFullscreen();
+   loginForm.reset();
 });

@@ -6,7 +6,7 @@ const nameOutput =
 
 nameInput.addEventListener('input', () => {
     const trimmedValue =
-        nameInput.ariaValueMax.trim();
+        nameInput.value.trim();
     
     if (trimmedValue) {
         nameOutput.textContent = trimmedValue;
